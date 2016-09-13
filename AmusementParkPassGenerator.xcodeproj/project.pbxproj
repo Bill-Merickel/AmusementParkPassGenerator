@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B30A87401D864211000C62B7 /* SoundModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30A873F1D864211000C62B7 /* SoundModel.swift */; };
 		B30C14A11D7FC0C400CA0B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C14A01D7FC0C400CA0B55 /* AppDelegate.swift */; };
 		B30C14A31D7FC0C400CA0B55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C14A21D7FC0C400CA0B55 /* ViewController.swift */; };
 		B30C14A61D7FC0C400CA0B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30C14A41D7FC0C400CA0B55 /* Main.storyboard */; };
 		B30C14A81D7FC0C400CA0B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30C14A71D7FC0C400CA0B55 /* Assets.xcassets */; };
 		B30C14AB1D7FC0C500CA0B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30C14A91D7FC0C400CA0B55 /* LaunchScreen.storyboard */; };
+		B30C14B31D7FC18B00CA0B55 /* EntrantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C14B21D7FC18B00CA0B55 /* EntrantModel.swift */; };
+		B354B5EE1D87842E00A4DE01 /* AccessDenied.wav in Resources */ = {isa = PBXBuildFile; fileRef = B354B5EC1D87842E00A4DE01 /* AccessDenied.wav */; };
+		B354B5EF1D87842E00A4DE01 /* AccessGranted.wav in Resources */ = {isa = PBXBuildFile; fileRef = B354B5ED1D87842E00A4DE01 /* AccessGranted.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B30A873F1D864211000C62B7 /* SoundModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundModel.swift; sourceTree = "<group>"; };
 		B30C149D1D7FC0C400CA0B55 /* AmusementParkPassGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmusementParkPassGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B30C14A01D7FC0C400CA0B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B30C14A21D7FC0C400CA0B55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,9 @@
 		B30C14A71D7FC0C400CA0B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B30C14AA1D7FC0C500CA0B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B30C14AC1D7FC0C500CA0B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30C14B21D7FC18B00CA0B55 /* EntrantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrantModel.swift; sourceTree = "<group>"; };
+		B354B5EC1D87842E00A4DE01 /* AccessDenied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessDenied.wav; sourceTree = "<group>"; };
+		B354B5ED1D87842E00A4DE01 /* AccessGranted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessGranted.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +64,24 @@
 			children = (
 				B30C14A01D7FC0C400CA0B55 /* AppDelegate.swift */,
 				B30C14A21D7FC0C400CA0B55 /* ViewController.swift */,
+				B30C14B21D7FC18B00CA0B55 /* EntrantModel.swift */,
+				B30A873F1D864211000C62B7 /* SoundModel.swift */,
 				B30C14A41D7FC0C400CA0B55 /* Main.storyboard */,
 				B30C14A71D7FC0C400CA0B55 /* Assets.xcassets */,
 				B30C14A91D7FC0C400CA0B55 /* LaunchScreen.storyboard */,
 				B30C14AC1D7FC0C500CA0B55 /* Info.plist */,
+				B354B5EB1D87840900A4DE01 /* AudioClips */,
 			);
 			path = AmusementParkPassGenerator;
+			sourceTree = "<group>";
+		};
+		B354B5EB1D87840900A4DE01 /* AudioClips */ = {
+			isa = PBXGroup;
+			children = (
+				B354B5EC1D87842E00A4DE01 /* AccessDenied.wav */,
+				B354B5ED1D87842E00A4DE01 /* AccessGranted.wav */,
+			);
+			name = AudioClips;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,8 +143,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30C14AB1D7FC0C500CA0B55 /* LaunchScreen.storyboard in Resources */,
+				B354B5EF1D87842E00A4DE01 /* AccessGranted.wav in Resources */,
 				B30C14A81D7FC0C400CA0B55 /* Assets.xcassets in Resources */,
 				B30C14A61D7FC0C400CA0B55 /* Main.storyboard in Resources */,
+				B354B5EE1D87842E00A4DE01 /* AccessDenied.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +158,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30C14A31D7FC0C400CA0B55 /* ViewController.swift in Sources */,
+				B30A87401D864211000C62B7 /* SoundModel.swift in Sources */,
 				B30C14A11D7FC0C400CA0B55 /* AppDelegate.swift in Sources */,
+				B30C14B31D7FC18B00CA0B55 /* EntrantModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +312,7 @@
 				B30C14B11D7FC0C500CA0B55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
