@@ -16,6 +16,8 @@
 		B30C14B31D7FC18B00CA0B55 /* EntrantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30C14B21D7FC18B00CA0B55 /* EntrantModel.swift */; };
 		B354B5EE1D87842E00A4DE01 /* AccessDenied.wav in Resources */ = {isa = PBXBuildFile; fileRef = B354B5EC1D87842E00A4DE01 /* AccessDenied.wav */; };
 		B354B5EF1D87842E00A4DE01 /* AccessGranted.wav in Resources */ = {isa = PBXBuildFile; fileRef = B354B5ED1D87842E00A4DE01 /* AccessGranted.wav */; };
+		B3DA69751D8F5A8000E0D361 /* ParkHelperStructs.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA69741D8F5A8000E0D361 /* ParkHelperStructs.swift */; };
+		B3DA69771D8F5B1100E0D361 /* EntrantEnumsAndErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DA69761D8F5B1100E0D361 /* EntrantEnumsAndErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		B30C14B21D7FC18B00CA0B55 /* EntrantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrantModel.swift; sourceTree = "<group>"; };
 		B354B5EC1D87842E00A4DE01 /* AccessDenied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessDenied.wav; sourceTree = "<group>"; };
 		B354B5ED1D87842E00A4DE01 /* AccessGranted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessGranted.wav; sourceTree = "<group>"; };
+		B3DA69741D8F5A8000E0D361 /* ParkHelperStructs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParkHelperStructs.swift; sourceTree = "<group>"; };
+		B3DA69761D8F5B1100E0D361 /* EntrantEnumsAndErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntrantEnumsAndErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,8 @@
 				B30C14A01D7FC0C400CA0B55 /* AppDelegate.swift */,
 				B30C14A21D7FC0C400CA0B55 /* ViewController.swift */,
 				B30C14B21D7FC18B00CA0B55 /* EntrantModel.swift */,
+				B3DA69741D8F5A8000E0D361 /* ParkHelperStructs.swift */,
+				B3DA69761D8F5B1100E0D361 /* EntrantEnumsAndErrors.swift */,
 				B30A873F1D864211000C62B7 /* SoundModel.swift */,
 				B30C14A41D7FC0C400CA0B55 /* Main.storyboard */,
 				B30C14A71D7FC0C400CA0B55 /* Assets.xcassets */,
@@ -159,8 +165,10 @@
 			files = (
 				B30C14A31D7FC0C400CA0B55 /* ViewController.swift in Sources */,
 				B30A87401D864211000C62B7 /* SoundModel.swift in Sources */,
+				B3DA69771D8F5B1100E0D361 /* EntrantEnumsAndErrors.swift in Sources */,
 				B30C14A11D7FC0C400CA0B55 /* AppDelegate.swift in Sources */,
 				B30C14B31D7FC18B00CA0B55 /* EntrantModel.swift in Sources */,
+				B3DA69751D8F5A8000E0D361 /* ParkHelperStructs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
